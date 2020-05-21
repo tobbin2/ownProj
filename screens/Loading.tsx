@@ -58,7 +58,6 @@ export class Loading extends Component<ILoadingProps, {}> {
         const encodedId = new TextEncoder().encode(getUniqueId())
         await crypto.subtle.digest('SHA-256', encodedId);
 
-        
     }
 
     render() {

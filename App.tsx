@@ -13,7 +13,7 @@ export class App extends React.Component<{}, IAppState>{
     super({})
 
     this.state = {
-      isLoading: true,
+      isLoading: false,
       location: {}
     }
 
